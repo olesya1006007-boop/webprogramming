@@ -1,0 +1,169 @@
+
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Вебпрограмування</title>
+
+    <style>
+        /* Основні налаштування сторінки */
+        body {
+            background-color: lightgray;
+            font-family: "Times New Roman", serif;
+            font-size: 19px;
+            color: blue;
+            text-align: center;
+            margin: 0;
+            padding: 20px;
+        }
+
+        /* Заголовок */
+        h1 {
+            color: blue;
+            font-size: 32px;
+        }
+
+        h2 {
+            color: blue;
+        }
+
+        .text-block {
+            border: 50px ridge gray;
+            border-radius: 20px;
+            padding: 20px;
+            margin: 20px auto;
+            max-width: 900px;
+            background-color: white;
+        }
+
+        .photo1 {
+            width: 300px;
+            height: 300px;
+            border: 5px solid gray;
+            border-radius: 60%;
+            object-fit: cover;
+            margin: 20px;
+        }
+
+        .photo2 {
+            width: 300px;
+            height: 200px;
+            border: 5px solid gray;
+            border-radius: 15px;
+            object-fit: cover;
+            transition: 0.5s;
+            margin: 20px;
+        }
+
+        .photo2:hover {
+            transform: scale(1.1);
+            border: 30px double green;
+            box-shadow: 0 0 25px gray;
+        }
+
+        a {
+            color: blue;
+            font-size: 20px;
+            text-decoration: underline;
+            margin: 10px;
+        }
+
+        a:hover {
+            color: white;
+            background-color: blue;
+            text-decoration: none;
+            border-radius: 10px;
+            padding: 5px;
+        }
+
+        .link-photo {
+            width: 250px;
+            border: 5px solid gray;
+            border-radius: 20px;
+            transition: 0.5s;
+        }
+
+        .link-photo:hover {
+            transform: scale(1.1);
+            box-shadow: 0 0 25px gray;
+        }
+
+        .links {
+            margin-top: 30px;
+            padding: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Вебпрограмування</h1>
+
+    <div class="text-block">
+        <h2>Що таке вебпрограмування?</h2>
+
+        <p>
+            Вебпрограмування - це розробка вебсайтів і вебзастосунків,
+            які працюють у браузері. Для створення вебсторінок
+            використовуються різні технології та мови програмування.
+        </p>
+
+        <p>
+            Основними технологіями веброзробки є HTML, CSS та JavaScript.
+            HTML використовується для створення структури сторінки,
+            CSS відповідає за її оформлення, а JavaScript додає
+            інтерактивність.
+        </p>
+
+        <p>
+            Вебпрограмування широко використовується для створення
+            інформаційних сайтів, інтернет-магазинів, соціальних мереж,
+            онлайн-сервісів та інших вебзастосунків.
+        </p>
+    </div>
+
+
+    <h2>Технології вебпрограмування</h2>
+
+    <!-- Перше зображення -->
+    <img src="photo1.jpg"
+         alt="Вебпрограмування"
+         class="photo1">
+
+
+    <!-- Друге зображення -->
+    <img src="photo2.jpg"
+         alt="Розробка вебсайтів"
+         class="photo2">
+
+
+    <div class="links">
+
+<h2>Корисні ресурси</h2>
+
+<!-- Два зовнішні посилання -->
+<p>
+    <a href="https://goiteens.com/shcho-take-vebprohramuvannya/" target="_blank">
+        GO/TEENS
+    </a>
+
+    <a href="https://it-generation.com.ua/stati/khto-takyi-veb-rozrobnyk-i-chym-vin-zaimaietsia/" target="_blank">
+        IT-GENERATION
+    </a>
+</p>
+
+<h2>Картинка-посилання</h2>
+
+<!-- Зображення виступає активним посиланням -->
+<a href="https://it-generation.com.ua/stati/khto-takyi-veb-rozrobnyk-i-chym-vin-zaimaietsia/" target="_blank">
+    <img src="photo3.jpg"
+         alt="Перейти до Дія.Освіта"
+         class="link-photo">
+</a>
+
+    </div>
+
+</body>
+</html>
